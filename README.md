@@ -5,4 +5,4 @@ AdBlock Classic is an extension for the lightweight, open-source browser K-Meleo
 
 If you're viewing this page on K-Meleon you can download the latest release below. To install it with the Extension Manager, right-click and choose KM Extension:
 
-https://github.com/rjjiii/AdBlock-Classic/releases/download/v1.0.5/AdBlock_Classic_kmext_pkg.7z 
+https://github.com/rjjiii/AdBlock-Classic/releases/download/v1.0.5.1/AdBlock_Classic_kmext_pkg.7z
