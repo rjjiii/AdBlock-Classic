@@ -1,0 +1,12 @@
+overlay   chrome://browser/content/browser.xul chrome://abprime/content/firefoxOverlay.xul application={8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4} application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+content   abprime content/
+skin      abprime classic/1.0 skin/
+style     chrome://global/content/customizeToolbar.xul chrome://abprime/skin/overlay.css
+locale    abprime en-US locale/en-US/
+resource  abprime /
+
+component {d32a3c00-4ed3-11de-8a39-0800200c9a66} components/Initializer.js
+contract @adblockplus.org/abp/startup;1 {d32a3c00-4ed3-11de-8a39-0800200c9a66}
+category profile-after-change @adblockplus.org/abp/startup;1 @adblockplus.org/abp/startup;1
+
+override chrome://dotnetassistant/content/bootstrap.xul data:text/xml,<nada/>
