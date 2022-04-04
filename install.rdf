@@ -13,6 +13,35 @@
     <em:name>AdBlock Classic</em:name>
     <em:description>Block ads using the same rules and subscriptions as AdBlock Plus or ABPrime.</em:description>
     <em:creator>RJJIII</em:creator>
+	<em:contributor>Wladimir Palant</em:contributor><em:contributor>Hermes</em:contributor><em:contributor>Matt A. Tobin</em:contributor><em:contributor>Claude Lespagnol aka Efdur</em:contributor><em:contributor>Nickolay Ponomarev</em:contributor><em:contributor>Kevin Keller</em:contributor><em:contributor>Fabrice Desré</em:contributor><em:contributor>Hubird</em:contributor><em:contributor>Günther Beyer (opoloo.de)</em:contributor><em:contributor>Algimantas Margevičius</em:contributor><em:contributor>anonymous74100</em:contributor><em:contributor>BsT</em:contributor><em:contributor>Crits</em:contributor><em:contributor>Famlam</em:contributor><em:contributor>fanboy</em:contributor><em:contributor>heradhis</em:contributor><em:contributor>John</em:contributor><em:contributor>Khrin</em:contributor><em:contributor>Lain_13</em:contributor><em:contributor>Li</em:contributor><em:contributor>Lian</em:contributor><em:contributor>MenetZ</em:contributor><em:contributor>MonztA</em:contributor><em:contributor>smed79</em:contributor><em:contributor>tomasko126</em:contributor><em:contributor>Zoso</em:contributor><em:contributor>Александър Станев</em:contributor>
+	<em:translator>Urko</em:translator><em:translator>Dagobert_78</em:translator><em:translator>Jim Courbron</em:translator><em:translator>jojaba</em:translator><em:translator>pirlouy</em:translator><em:translator>blackdire</em:translator><em:translator>YFdyh000</em:translator><em:translator>Wladimir Palant</em:translator><em:translator>Hermes</em:translator>
+	    <em:localized>
+        <Description>
+            <em:locale>ru</em:locale>
+            <em:name>AdBlock Classic</em:name>
+            <em:description>Блокировать рекламу.</em:description>
+        </Description>
+		<Description>
+            <em:locale>es</em:locale>
+            <em:name>AdBlock Classic</em:name>
+            <em:description>Bloquear anuncios. Utilice las mismas reglas de AdBlock Plus.</em:description>
+        </Description>
+		<Description>
+            <em:locale>fr</em:locale>
+            <em:name>AdBlock Classic</em:name>
+            <em:description>Bloquer les publicités.</em:description>
+        </Description>
+		<Description>
+            <em:locale>de</em:locale>
+            <em:name>AdBlock Classic</em:name>
+            <em:description>Werbung blockieren.</em:description>
+        </Description>
+		<Description>
+            <em:locale>zh</em:locale>
+            <em:name>AdBlock Classic</em:name>
+            <em:description>屏蔽广告。</em:description>
+        </Description>
+    </em:localized>
     <em:type>2</em:type>
     <em:targetApplication>
       <Description>

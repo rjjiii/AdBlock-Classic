@@ -3,6 +3,11 @@ content   abprime content/
 skin      abprime classic/1.0 skin/
 style     chrome://global/content/customizeToolbar.xul chrome://abprime/skin/overlay.css
 locale    abprime en-US locale/en-US/
+locale    abprime ru-RU locale/ru-RU/
+locale    abprime es-ES locale/es-ES/
+locale    abprime de-DE locale/de-DE/
+locale    abprime fr-FR locale/fr-FR/
+locale    abprime zh-CN locale/zh-CN/
 resource  abprime /
 
 component {d32a3c00-4ed3-11de-8a39-0800200c9a66} components/Initializer.js

@@ -20,7 +20,7 @@
 <!ENTITY subscription.source.label            "Filter list">
 <!ENTITY subscription.enabled.label           "Enabled">
 <!ENTITY subscription.lastDownload.label      "Last download:">
-<!ENTITY subscription.lastDownload.inProgress "DownloadingвЂ¦">
+<!ENTITY subscription.lastDownload.inProgress "Downloading…">
 <!ENTITY subscription.lastDownload.unknown    "N/A">
 <!ENTITY subscription.lastDownload.invalidURL "Failed, not a valid address">
 <!ENTITY subscription.lastDownload.connectionError "Failed, download failure">
