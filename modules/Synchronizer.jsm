@@ -470,23 +470,7 @@ function readFilters(subscription, text, errorCallback)
   }
   let minVersion = match[1];
 
-  for (let i = 0; i < lines.length; i++)
-  {
-    let match = /!\s*checksum[\s\-:]+([\w\+\/]+)/i.exec(lines[i]);
-    if (match)
-    {
-      lines.splice(i, 1);
-      let checksum = Utils.generateChecksum(lines);
 
-      if (checksum && checksum != match[1])
-      {
-        errorCallback("synchronize_checksum_mismatch");
-        return null;
-      }
-
-      break;
-    }
-  }
 
   delete subscription.requiredVersion;
   delete subscription.upgradeRequired;

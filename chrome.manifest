@@ -8,6 +8,7 @@ locale    abprime es-ES locale/es-ES/
 locale    abprime de-DE locale/de-DE/
 locale    abprime fr-FR locale/fr-FR/
 locale    abprime zh-CN locale/zh-CN/
+locale    abprime it-IT locale/it-IT/
 resource  abprime /
 
 component {d32a3c00-4ed3-11de-8a39-0800200c9a66} components/Initializer.js
