@@ -1,0 +1,129 @@
+﻿<?xml version="1.0"?>
+
+<!--
+  - This file is part of the Adblock Plus web scripts,
+  - Copyright (C) 2006-2016 Eyeo GmbH
+  -
+  - Adblock Plus is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - Adblock Plus is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<subscriptions>
+
+  <subscription title="Easy List"
+                specialization="English"
+                url="https://easylist-downloads.adblockplus.org/easylist.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="en"
+                type="ads"/>
+
+  <subscription title="Easy Privacy"
+                specialization="Privacy, supplement"
+                url="https://easylist-downloads.adblockplus.org/easyprivacy.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="en"
+                type="ads"/>
+				
+  <subscription title="I don't care about cookies"
+                specialization="Cookie warning, supplement"
+                url="https://www.i-dont-care-about-cookies.eu/abp/"
+                homepage="https://www.i-dont-care-about-cookies.eu/"
+                prefixes="en"
+                type="ads"/>
+
+  <subscription title="Fanboy's Annoyance List"
+                specialization="Pop-Ups, supplement"
+                url="https://secure.fanboy.co.nz/fanboy-annoyance.txt"
+                homepage="https://www.fanboy.co.nz/"
+                prefixes="en"
+                type="ads"/>
+				
+  <subscription title="Fanboy's Enhanced Tracking List"
+                specialization="Trackers, supplement"
+                url="https://secure.fanboy.co.nz/enhancedstats.txt"
+                homepage="https://www.fanboy.co.nz/"
+                prefixes="en"
+                type="ads"/>
+				
+  <subscription title="AdBlock Locus: Fallback"
+                specialization="JScript fallback, supplement"
+                url="https://raw.githubusercontent.com/rjjiii/AdBlock-Locus/main/AdBlockLocus_Fallback.txt"
+                homepage="https://rjjiii.github.io/K-Meleon/AdBlockLocus/"
+                prefixes="en"
+                type="ads"/>
+				
+  <subscription title="RuAdList"
+                specialization="Русский"
+                url="https://easylist-downloads.adblockplus.org/advblock.txt"
+                homepage="https://forums.lanik.us/viewforum.php?f=102"
+                prefixes="ru"
+                type="ads"/>
+
+  <subscription title="RU AdList: BitBlock"
+                specialization="Русский"
+                url="https://easylist-downloads.adblockplus.org/bitblock.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="ru"
+                type="ads"/>
+
+  <subscription title="RU AdList: Counters"
+                specialization="Русский"
+                url="https://easylist-downloads.adblockplus.org/cntblock.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="ru"
+                type="ads"/>
+					
+  <subscription title="Easylist: Spanish"
+                specialization="Español"
+                url="https://easylist-downloads.adblockplus.org/easylistspanish.txt"
+                homepage="https://easylist.to/"
+                prefixes="es"
+                type="ads"/>
+				
+  <subscription title="Liste FR"
+                specialization="Français"
+                url="https://easylist-downloads.adblockplus.org/liste_fr.txt"
+                homepage="https://forums.lanik.us/viewforum.php?f=91"
+                prefixes="fr"
+                type="ads"/>
+				
+  <subscription title="Easy List: Italy"
+                specialization="Italiano"
+                url="https://easylist-downloads.adblockplus.org/easylistitaly.txt"
+                homepage="https://easylist.to/"
+                prefixes="it"
+                type="ads"/>
+				
+  <subscription title="Easy List: Germany"
+                specialization="Deutsch"
+                url="https://easylist-downloads.adblockplus.org/easylistgermany.txt"
+                homepage="https://easylist.github.io/"
+                prefixes="de"
+                type="ads"/>
+				
+  <subscription title="Easy List: China"
+                specialization="Chinese"
+                url="https://easylist-downloads.adblockplus.org/easylistchina.txt"
+                homepage="https://github.com/easylist/easylistchina/"
+                prefixes="zh"
+                type="ads"/>
+				
+  <subscription title="CJX's Annoyance List"
+                specialization="Chinese"
+                url="https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+                homepage="https://github.com/cjx82630/cjxlisthttps://easylist.github.io/"
+                prefixes="zh"
+                type="ads"/>
+				
+				
+
+  </subscriptions>
