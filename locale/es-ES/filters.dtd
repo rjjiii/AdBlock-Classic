@@ -3,7 +3,7 @@
 <!ENTITY subscriptions.tab.label              "Suscripciones de filtros">
 <!ENTITY filters.tab.label                    "Filtros personalizados">
 
-<!ENTITY addSubscription.label                "Añadir &amp;suscripción de filtros">
+<!ENTITY addSubscription.label                "Añadir suscripción de filtros">
 <!ENTITY addSubscription.accesskey            "f">
 
 <!ENTITY addSubscriptionAdd.label             "Añadir">
@@ -37,19 +37,19 @@
 <!ENTITY subscription.moveUp.label            "Subir">
 <!ENTITY subscription.moveDown.label          "Bajar">
 
-<!ENTITY acceptableAds2.label                 "&amp;Permitir cierta publicidad no intrusiva">
+<!ENTITY acceptableAds2.label                 "Permitir cierta publicidad no intrusiva">
 <!ENTITY acceptableAds2.accesskey             "i">
 <!ENTITY viewList.label                       "Ver lista">
 <!ENTITY readMore.label                       "Leer más">
 
-<!ENTITY addGroup.label                       "Añadir &amp;grupo de filtros">
+<!ENTITY addGroup.label                       "Añadir grupo de filtros">
 <!ENTITY addGroup.accesskey                   "g">
 
 <!ENTITY noFilters.text                       "
   Aún no tiene filtros personalizados.
 ">
 
-<!ENTITY addFilter.label                      "A&amp;ñadir filtro">
+<!ENTITY addFilter.label                      "Añadir filtro">
 <!ENTITY addFilter.accesskey                  "d">
 
 <!ENTITY filter.actions.label                 "Acciones de filtros">
@@ -64,24 +64,24 @@
 <!ENTITY filter.moveDown.label                "Bajar">
 <!ENTITY viewMenu.label                       "Ver">
 
-<!ENTITY filter.column                        "&amp;Regla de filtrado">
+<!ENTITY filter.column                        "Regla de filtrado">
 <!ENTITY filter.accesskey                     "F">
-<!ENTITY slow.column                          "Filtros l&amp;entos">
+<!ENTITY slow.column                          "Filtros lentos">
 <!ENTITY slow.accesskey                       "w">
-<!ENTITY enabled.column                       "Acti&amp;vado">
+<!ENTITY enabled.column                       "Activado">
 <!ENTITY enabled.accesskey                    "n">
-<!ENTITY hitcount.column                      "&amp;Contador">
+<!ENTITY hitcount.column                      "Contador">
 <!ENTITY hitcount.accesskey                   "H">
-<!ENTITY lasthit.column                       "Último &amp;uso">
+<!ENTITY lasthit.column                       "Último uso">
 <!ENTITY lasthit.accesskey                    "L">
 
-<!ENTITY sort.label                           "&amp;Listar">
+<!ENTITY sort.label                           "Listar">
 <!ENTITY sort.accesskey                       "S">
-<!ENTITY sort.none.label                      "&amp;Sin ordenar">
+<!ENTITY sort.none.label                      "Sin ordenar">
 <!ENTITY sort.none.accesskey                  "U">
-<!ENTITY sort.ascending.label                 "Ordenar &amp;A &gt; Z">
+<!ENTITY sort.ascending.label                 "Ordenar A &gt; Z">
 <!ENTITY sort.ascending.accesskey             "A">
-<!ENTITY sort.descending.label                "Ordenar &amp;Z &gt; A">
+<!ENTITY sort.descending.label                "Ordenar Z &gt; A">
 <!ENTITY sort.descending.accesskey            "Z">
 
 <!ENTITY noGroupSelected.text                 "Tiene que seleccionar un grupo de filtros para que se muestren sus filtros.">
@@ -89,7 +89,7 @@
 
 <!ENTITY filters.remove.warning               "¿Está seguro de querer eliminar todos los filtros seleccionados?">
 
-<!ENTITY backupButton.label                   "&amp;Copias de seguridad y restauración">
+<!ENTITY backupButton.label                   "Copias de seguridad y restauración">
 <!ENTITY backupButton.accesskey               "B">
 
 <!ENTITY backup.label                         "Crear nueva copia de seguridad">
@@ -106,7 +106,7 @@
 <!ENTITY restore.custom.warning               "Todas sus filtros personalizados se sustituirán por los contenidos del archivo seleccionado ¿Desea continuar?">
 <!ENTITY restore.minVersion.warning           "Atención: el archivo se creó con una versión más reciente de Adblock Plus. Debería actualizar a la última versión de Adblock Plus antes de hacer una restauración desde este archivo.">
 
-<!ENTITY find.label                           "&amp;Buscar">
+<!ENTITY find.label                           "Buscar">
 <!ENTITY find.accesskey                       "n">
 
 <!ENTITY close.label                          "Cerrar">

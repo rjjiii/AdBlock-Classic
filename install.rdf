@@ -9,7 +9,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>ad-block-classic@rjjiii.kmeleonbrowser.org</em:id>
-    <em:version>2.0.4</em:version>
+    <em:version>2.1.0</em:version>
     <em:name>AdBlock Classic</em:name>
     <em:description>Block ads using the same rules and subscriptions as AdBlock Plus or ABPrime.</em:description>
     <em:creator>RJJIII</em:creator>

@@ -1,0 +1,143 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>
+	AdBlock Classic
+</title>
+
+<style>
+html, body{
+	background: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+
+div
+	{
+	background-color:black;
+	color: white;
+	opacity: .8;
+	max-width: 400pt;
+	font-family: sans-serif;
+	padding: 16pt;
+	}
+
+div p, div ul {
+padding: 16pt;
+padding-bottom:0;
+padding-top:0;
+}
+
+h1{
+	margin-top:0;
+	padding-top:0;
+}
+
+small{
+	display:block;
+	text-align:right;
+	color:white;
+	}
+
+a{
+	color:white;
+	opacity:.6;
+	}
+
+a:hover{
+	color:white;
+	opacity:1;}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<div>
+
+<h1>AdBlock Classic</h1>
+
+<p>AdBlock Classic is an open-source extension for K-Meleon. It is an updated and de-branded descendant of the classic AdBlock Plus extension for Firefox. It includes the improvements from Hermes' port of ABPrime, and it uses a custom interface for K-Meleon. AdBlock Classic supports AdBlock Plus filters and <a href="https://adblockplus.org/filter-cheatsheet">rules</a>. The extension is open-source software available under the MPL 2.0. It is distributed freely, as-is, and without warranty. That said, you're welcome to <a href="http://kmeleonbrowser.org/forum/read.php?19,155958">visit the K-Meleon forums if you have questions or issues</a>.
+</p>
+
+
+
+<h2>Updates</h2>
+<p>
+	AdBlock Classic will only update when you ask it to; it will not download or install updates in the background. To update the extension itself, visit the <a href="https://rjjiii.github.io/K-Meleon/AdBlockClassic/">extension's page</a> and click <b>Install AdBlock Classic</b>. K-Meleon will install the new version while preserving your settings or blocking rules.
+</p>
+
+<p>	
+	To update your <a href="subscriptions.html">blocking rules</a>:
+</p>
+	<ol>
+		<li>
+			In AdBlock Classic's menu, click <b>Settings</b> and the filter settings dialog will pop up. On the <b>Filter subscriptions</b> tab, you'll see the various lists of blocking rules that you are using. 
+		</li>
+		<li>
+			Click the <b>Actions</b> button beside the list you want to update and select <b>Update filters</b> in the menu. The extension will download new blocking rules from the subscription URL.
+		</li>
+	</ol>
+
+
+
+<h2>Upgrading</h2>
+
+<p>If you have AdBlock Classic 1 or ABPrime installed, disable them from about:addons to continue using their settings and rules list. You can use your rules from a previous installation of AdBlock Plus but not the settings.</p>
+
+
+
+<h2>Custom rules to allow ads on a site</h2>
+ 
+<ol>
+	<li>
+		<b>Copy</b> the domain name only from the address bar. For example, on the page "https://en.wikipedia.org/wiki/Advertising" you would copy only "wikipedia.org" from the address. Paste it into the template in the next step.
+	</li>
+	<li>
+		Replace the "example.com" with your domain name: <b>@@||example.com^$document</b> and <b>copy</b> it to the clipboard.
+
+	</li>
+	<li>
+		In AdBlock Classic's menu, click <b>Settings</b> and the filter settings dialog will pop up. Select the <b>Custom filters</b> tab and click the <b>Add filter</b> button.
+	</li>
+	<li>
+		<b>Paste</b> your blocking exception, and AdBlock Classic will no longer block ads on that site.
+	</li>	
+</ol>
+
+<h2>Custom rules to hide elements</h2>
+<ol>
+	<li>
+		Open the page in K-Meleon.
+	</li>
+	<li>
+		Press <b>Ctrl + U</b> or go to <b>View - Source Code</b> in the menu. This will open the page's source code in a new window.
+	</li>
+	<li>
+		Find the "id" of the element that you want to block. It will be in quotation marks and highlighted as blue text.
+	</li>
+	<li>
+		<b>Copy the id</b> of the element and paste it into the template in the next step.
+	</li>
+	<li>
+		To create your blocking rule, replace the "id" in <b>###id</b> and <b>copy</b> the rule to your clipboard.
+	</li>
+	<li>
+		In AdBlock Classic's menu, click <b>Settings</b> and the filter settings dialog will pop up. Select the <b>Custom filters</b> tab and click the <b>Add filter</b> button.
+	</li>
+	<li>
+		<b>Paste</b> your blocking rule, and the element should disappear.
+	</li>	
+</ol>
+<p>
+	You can hide elements by class using <b>##.something</b> instead of ###something. You can also target your custom rules for only certain websites using <a href="https://adblockplus.org/filter-cheatsheet#elementhiding-ex1">AdBlock Plus</a> syntax.
+</p>
+
+<small><a href="subscriptions.html">Subscriptions</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="copyright.html"> Copyright</a></small>
+
+</div>
+</body></html>

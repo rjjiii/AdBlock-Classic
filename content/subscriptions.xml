@@ -20,7 +20,7 @@
 <subscriptions>
 
   <subscription title="Easy List"
-                specialization="English"
+                specialization="Base list from AdBlock Plus"
                 url="https://easylist-downloads.adblockplus.org/easylist.txt"
                 homepage="https://easylist.adblockplus.org/"
                 prefixes="en"
@@ -47,16 +47,16 @@
                 prefixes="en"
                 type="ads"/>
 				
-  <subscription title="Fanboy's Enhanced Tracking List"
-                specialization="Trackers, supplement"
-                url="https://secure.fanboy.co.nz/enhancedstats.txt"
+  <subscription title="Fanboy's Social Blocking List"
+                specialization="Block social content, supplement"
+                url="https://easylist-downloads.adblockplus.org/fanboy-social.txt"
                 homepage="https://www.fanboy.co.nz/"
                 prefixes="en"
                 type="ads"/>
 				
-  <subscription title="AdBlock Locus: Fallback"
-                specialization="JScript fallback, supplement"
-                url="https://raw.githubusercontent.com/rjjiii/AdBlock-Locus/main/AdBlockLocus_Fallback.txt"
+  <subscription title="AdBlock Locus: Core"
+                specialization="Base list optimized for K-Meleon"
+                url="https://rjjiii.github.io/K-Meleon/AdBlockLocus/Core.txt"
                 homepage="https://rjjiii.github.io/K-Meleon/AdBlockLocus/"
                 prefixes="en"
                 type="ads"/>

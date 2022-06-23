@@ -83,7 +83,7 @@ if(KMversion>=75)
 {
 	
   //Toolbar Button Actions
-  jsb.RegisterCmd(CmdName, 'Toggle AdBlock Classic', function(wind, mode, arg) {
+  jsb.RegisterCmd(CmdName, _bundle.GetStringFromName("km_toggle_status"), function(wind, mode, arg) {
 	ToggleButton();
   }, 'chrome://abprime/content/icon.png');
   //Check state to see if button is off:
@@ -98,7 +98,7 @@ if(KMversion>=75)
     watcher.openWindow(
       null,
       'chrome://abprime/content/filters.xul',
-      'Screenshot settings',
+      'Filter settings',
       'chrome,titlebar,toolbar,centerscreen,modal,resizable',
       null
     );
@@ -122,9 +122,12 @@ if(KMversion>=75)
 
   });
   
-      jsb.RegisterCmd(_bundle.GetStringFromName("km_about"), _bundle.GetStringFromName("km_status_about"), function(wind, mode, arg) {
-	  
-	              popupAlert(_bundle.GetStringFromName("km_about"), "AdBlock Classic is open-source software. You may use, modify, and redistribute it under the Mozilla Public License 2.0. Source code is available at the download location. Files in the XPI retain comments. If you did not receive a copy of the license it is available online at: https://www.mozilla.org/en-US/MPL/2.0/ \n\nAdBlock Classic includes code from AdBlock Plus, AdBlock Lattitude, and ABPrime. AdBlock Classic can use AdBlock Plus rules and subscriptions to block ads in K-Meleon. \n\nAdblock Plus is a registered trademark of eyeo GmbH. ABPrime is distributed by BinaryOutcast for various UXP-based applications. This third party package is not officially endorsed by K-Meleon. This software has been distributed freely and WITHOUT WARRANTY OF ANY KIND. \n\n\n\nVersion 2.0 \n\nCopyright \u00A9 2022 R.J.J. III");
+    jsb.RegisterCmd(_bundle.GetStringFromName("km_about"), _bundle.GetStringFromName("km_status_about"), function(wind, mode, arg) {
+
+    jsb.Open("chrome://abprime/content/about.html", jsb.OPEN_NEWTAB);
+
+// 
+
 
   });
 
@@ -135,7 +138,7 @@ jsb.AddButton(ToolbarDefault, CmdName, Popup1Name, _bundle.GetStringFromName("km
 //Create Toolbar Menu
 //syntax setmenu("menu", MENU_TYPE, "item-name", "command-name", <location>);
 jsb.SetMenu(MenuDefault, jsb.MENU_POPUP, Popup1Name, "", 0);
-jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, "Toggle", CmdName, 0);
+jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_toggle"), CmdName, 0);
 jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_settings"), _bundle.GetStringFromName("km_settings"), 1);
 jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_logs"), _bundle.GetStringFromName("km_logs"), 2);
 jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_about"), _bundle.GetStringFromName("km_about"), 3);
@@ -163,9 +166,11 @@ function WhatColorForButton(){
 	
 	if (isOn){
 		jsb.SetCmdIcon(CmdName, 'chrome://abprime/content/icon_on.png');
+		jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_toggle"), CmdName, 0);
 	}
 	else{
 		jsb.SetCmdIcon(CmdName, 'chrome://abprime/content/icon_off.png');
+		jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_toggle_off"), CmdName, 0);
 	}
 };
 
@@ -175,10 +180,14 @@ function ToggleButton(){
 	if (isOn){
 		    prefs.setBoolPref('enabled', false);
 			jsb.SetCmdIcon(CmdName, 'chrome://abprime/content/icon_off.png');
+			jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_toggle_off"), CmdName, 0);
+			jsb.RebuildMenu(Popup1Name);
 	}
 	else{
 		prefs.setBoolPref('enabled', true);
 		jsb.SetCmdIcon(CmdName, 'chrome://abprime/content/icon_on.png');
+		jsb.SetMenu(Popup1Name, jsb.MENU_COMMAND, _bundle.GetStringFromName("km_toggle"), CmdName, 0);
+		jsb.RebuildMenu(Popup1Name);
 	}
 };
 //===========================================//
